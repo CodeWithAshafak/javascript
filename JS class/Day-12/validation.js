@@ -5,7 +5,7 @@ function registration() {
   let password = document.querySelector(".password").value;
   let cpassword = document.querySelector(".cpassword").value;
 
-  if (name == "") {
+  if (name ==  "") {
     window.alert("Please enter your name");
     document.querySelector(".name").focus();
     return false;
