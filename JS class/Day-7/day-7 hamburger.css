@@ -1,0 +1,16 @@
+.smallnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:aquamarine;
+}
+
+.openlist{
+    width: 300px;
+    height: 100vh;
+    background-color: rgb(47, 39, 164);
+    position: absolute;
+    top: 0px;
+    left: -300px;
+}

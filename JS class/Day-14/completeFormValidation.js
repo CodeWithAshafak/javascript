@@ -55,12 +55,12 @@ function signup() {
     document.querySelector(".cpassword").focus();
     return false;
   } else {
-   window.location.href = "login.html";
-     window.open("login.html");
   
+    window.alert("Registration successful!");
   }
-
-  window.alert("Registration successful!");
+  window.location.href = "login.html";
+  // window.open("login.html");
+  
   return true;
 }
 

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .carddesign{
+        width: 500px;
+        border: 2px solid black;
+        border-radius: 10px;
+        height: 200px;
+      }
+      .carddesign article div img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+
+      }
+      .carddesign article{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+      }
+      .main{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <form action="" autocomplete="on" class="main"> -->
+      <input type="text" placeholder="enter image url" class="userimageurl" />
+      <input type="text" placeholder="enter your name " class="username" />
+      <input type="text" placeholder="enter your profession " class="userprofession"./>
+      <input type="email" placeholder="enter your email" class="useremail"/>
+      <input type="tel" placeholder="enter your mobile" class="usermoble"/>
+
+
+      <input type="text" placeholder="enter your address" class="useraddress"/>
+
+      <button onclick="return output()">CREAT CARD</button>
+    <!-- </form> -->
+
+    <div class="showcard">
+
+    </div>
+    <script src="./finalTemplateLiteralWithFrom.js"></script>
+  </body>
+</html>

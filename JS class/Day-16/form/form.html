@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="form.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+                /* background: url('data:image/jpeg;base64,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') no-repeat center center/cover;
+            */
+                margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+
+        .carddesign {
+            
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            padding: 20px;
+            width: 500px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
+                        0 8px 16px rgba(0, 0, 0, 0.1), 
+                        0 16px 32px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .carddesign:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15), 
+                        0 16px 32px rgba(0, 0, 0, 0.1), 
+                        0 24px 48px rgba(0, 0, 0, 0.07);
+        }
+
+        .carddesign img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            margin: 10px 0;
+            font-weight: 500;
+            font-size: 1em;
+            color: #333;
+        }
+
+        h3:first-of-type {
+            font-weight: 600;
+            font-size: 1.5em;
+        }
+
+        .carddesign u {
+            color: #555;
+        }
+
+        .carddesign article:last-of-type {
+            margin-top: 15px;
+            font-size: 0.9em;
+            color: #555;
+        
+        }
+       
+
+.csd {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;
+}
+
+.csd img {
+    margin-right: 20px; 
+    width: 150px;  
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.csd article {
+    text-align: left;
+}
+
+.showcard2 {
+    cursor: pointer; 
+    margin-top: 400px;
+    margin-right: 250px;
+    width: 300px;
+}
+.r{
+
+    margin: 0%;
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2 id="w">Id Card Genrator</h2>
+        <form onsubmit="return show()">
+            <label for="name">Name</label>
+            <input type="text" class="n" placeholder="Enter your name" id="name"><br>
+
+            <label for="profession">Profession</label>
+            <input type="text" class="prof" placeholder="Enter your profession" id="profession"><br>
+
+            <label for="email">Email</label>
+            <input type="email" class="e" placeholder="Enter your email" id="email"><br>
+
+            <label for="phone">Mobile no.</label>
+            <input type="tel" class="ph" placeholder="phone no." id="phone"><br>
+
+            <label for="address">Address</label>
+            <input type="text" class="addr" placeholder="Enter your address" id="address"><br>
+
+            <button type="submit">genrat card</button>
+        </form>
+    </div>
+
+  <div class="showcard"></div>   <div class="fd" onclick="dd()">save</div> 
+<div class="showcard2" onclick="another()" ondblclick="output()"><h3 class="rr"> Change </h3></div>
+
+    <script src="form.js"></script>
+
+</body>
+</html>
+

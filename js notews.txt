@@ -1,0 +1,14 @@
+=>var old js main tha 
+=>var function scoped hota hai => var apne parent function mein kahi bhi use ho sta hai 
+=>var adds itself to the window object 
+
+
+
+=> let const new js mein hai 
+=> let const braces scoped hota hai 
+=> let const doen't adds 
+
+=> js language me kuchh cheeje nahi hai jo hum use kar skete hai aur wo cheeje hume js se nahi bakli browser se milti hai , aise saare features jo JS ka part nahi hai but fir bhi use kar skte hai unhe hum dhoond sakte hai ek particular object meain jiska naam hai window
+
+
+=>

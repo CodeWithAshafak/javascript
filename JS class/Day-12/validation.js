@@ -32,5 +32,5 @@ function registration() {
   }
 
   window.alert("Registration successful!");
-  return true;
+  return true ;
 }
