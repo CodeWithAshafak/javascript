@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      section {
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(94, 94, 88);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+      }
+      section h1 {
+        font-style: italic;
+        color: burlywood;
+      }
+      section .main {
+        height: 400px;
+        width: 650px;
+        background-color: skyblue;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* border: 2px solid rgb(189, 12, 12); */
+        border-radius: 20px;
+        box-shadow: cyan;
+        backdrop-filter: blur(10px);
+      }
+      section .main .password {
+        height: 50px;
+        width: 300px;
+        border: 2px solid rgb(110, 93, 93);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(204, 174, 117);
+      }
+      section .main .password::before {
+        content: "Your password :";
+        color: red;
+      }
+
+      section .main button {
+        height: 50px;
+        width: 150px;
+        color: antiquewhite;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1>Strong Password Genrator</h1>
+      <div class="main">
+        <div class="password"></div>
+        <button onclick="generate()">Create Password</button>
+      </div>
+    </section>
+    <script src="practice mathRandomFunction.js"></script>
+  </body>
+</html>
