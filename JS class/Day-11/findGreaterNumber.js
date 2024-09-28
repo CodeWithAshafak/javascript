@@ -1,3 +1,6 @@
+//Find Greater Number and display to the screen 
+
+
 function compare()
 {
     let num1 = parseInt(document.querySelector('.num1').value);
