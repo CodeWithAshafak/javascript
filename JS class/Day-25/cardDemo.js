@@ -67,5 +67,6 @@ show.innerHTML = arrofobj.map(e=>`
     <div>${e.cprice}</div>
     </div>
     <button>Buy Now</button>
+    
     </div>
     `).join("");
