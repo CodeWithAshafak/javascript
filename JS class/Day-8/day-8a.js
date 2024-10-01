@@ -2,7 +2,7 @@ function change_img_one(){
     let selectimg = document.querySelector('.largeimg')
     selectimg.src = "/image/d-1.jpg"
 }
-function change_img_two(){
+function change_img_two(){ 
     let selectimg = document.querySelector('.largeimg')
     selectimg.src = "/image/d-2.jpg"
 }
