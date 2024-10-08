@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 500px;
+            width: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color:aqua;
+            position: relative;
+            top: 200px;
+            left: 500px;
+
+
+        }
+        .main form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 30px;
+
+        }
+        .main form input{
+            height: 30px;
+            width: 300px;
+            text-align: center;
+        }
+        .main form button{
+            background-color: black;
+            color: white;
+            height: 30px;
+            width: 130px;
+        }
+        .main form button:hover{
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="main">
+        <form action="">
+            <input type="text" id="name" placeholder="Enter your Id">
+
+            <input type="password" id="password" placeholder="enter your password">
+
+            <button onclick="submit()" type="submit">Log in </button>
+            
+        </form>
+        <h4>don't have account?<a href="#">Register</a>
+        </h4>
+    </div>
+    <script src="./Login.js"></script>
+</body>
+</html>
