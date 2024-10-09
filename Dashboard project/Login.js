@@ -14,7 +14,7 @@ function submit()
 
 
 
-    fetch("http://localhost:4000/login",
+    fetch("http://localhost:4000/user",
        {
         method: "POST",
         headers: {
