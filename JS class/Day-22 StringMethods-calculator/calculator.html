@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <style>
+      table{
+        position: absolute;
+        top: 100px;
+        left: 540px;
+      }
+    </style>
+  </head>
+  <body>
+    <table
+      align="center"
+      bgcolor="silver"
+      border="2px"
+      cellspacing="20px"
+      cellpadding="20px"
+      
+    >
+      <tr bgcolor="white">
+        <td colspan="4" id="showval"></td>
+      </tr>
+      <tr>
+        <td onclick="calculator(1)">1</td>
+        <td onclick="calculator(2)">2</td>
+        <td onclick="calculator(3)">3</td>
+        <td onclick="calculator(4)">4</td>
+      </tr>
+
+      <tr>
+        <td onclick="calculator(5)">5</td>
+        <td onclick="calculator(6)">6</td>
+        <td onclick="calculator(7)">7</td>
+        <td onclick="calculator(8)">8</td>
+      </tr>
+
+      <tr>
+        <td onclick="calculator(9)">9</td>
+        <td onclick="calculator('0')">0</td>
+        <td onclick="calculator('+')">+</td>
+        <td onclick="calculator('-')">-</td>
+      </tr>
+
+      <tr>
+         <td onclick="calculator('/')">/</td>
+         <td onclick="calculator('*')">*</td>
+         <td onclick="calculator('%')">%</td>
+         <td onclick="sq()">n<sup>2</sup></td>
+      </tr>
+      <tr>
+         <td onclick="del()">DEL</td>
+         <td onclick="root()">Sroot</td>
+         <td onclick="ac()">AC</td>
+         <td onclick="output()">=</td>
+      </tr>
+    </table>
+
+    <script src="./calculator.js"></script>
+  </body>
+</html>
