@@ -11,4 +11,6 @@
 => js language me kuchh cheeje nahi hai jo hum use kar skete hai aur wo cheeje hume js se nahi bakli browser se milti hai , aise saare features jo JS ka part nahi hai but fir bhi use kar skte hai unhe hum dhoond sakte hai ek particular object meain jiska naam hai window
 
 
-=>
+09 OCT 2024
+IFFI function :-
+IIFE stands for Immediately Invoked Function Expression. It is a JavaScript function that runs as soon as it is defined. An IIFE is a function expression that is defined and invoked immediately after its declaration. It's an isolated and self-contained block of code that can be used to encapsulate variables and functions, preventing them from polluting the global scope.  
