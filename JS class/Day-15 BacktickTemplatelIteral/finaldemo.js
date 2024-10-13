@@ -1,11 +1,11 @@
 function output(){
 
-    let imgurl = "https://images.app.goo.gl/H7tWKKtWfUZcDyuS7";
-    let username = "Deepak patel";
-    let userproffession = "Trainer";
-    let useremail = "";
-    let usermobile = "";
-    let useraddress = "";
+    let imgurl = "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
+    let username = "Ashfak Altaf Astanwale";
+    let userproffession = "softwere engineer";
+    let useremail = "ashfak04@gamil.com";
+    let usermobile = "8698468448";
+    let useraddress = "New minal resideny bhopal madhya pradesh ";
     
     
     let card = ` <section class="carddesign">
