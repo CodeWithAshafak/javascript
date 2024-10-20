@@ -1,0 +1,22 @@
+{
+  "user": [
+    {
+      "id": "b440",
+      "name": "Ashafak Astanwale",
+      "email": "ashafak04@gmail.com",
+      "image": "https://i.pinimg.com/736x/41/52/92/41529228b0927700222790258464e89a.jpg",
+      "mob": "8698468448",
+      "password": "Ashafak04@123",
+      "cpassword": "Ashafak04@123"
+    },
+    {
+      "id": "42fb",
+      "name": "Hina Khan",
+      "email": "hina@gmail.com",
+      "image": "https://i.pinimg.com/736x/41/52/92/41529228b0927700222790258464e89a.jpg",
+      "mob": "7845129632",
+      "password": "Ashafak04@123",
+      "cpassword": "Ashafak04@123"
+    }
+  ]
+}

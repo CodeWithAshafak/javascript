@@ -12,17 +12,17 @@
   float: left;
   height: 100vh;
   width: 70px;
-  background-color: rgb(13, 172, 204);
+  background-color: rgb(44, 128, 148);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px;
+  padding: 20px;
   flex-direction: column;
   color: white;
   font-size: 20px;
 }
 .smallsidebar .top {
-  height: 400px;
+  height: 670px;
   display: flex;
   flex-direction: column;
   gap: 100px;
@@ -39,7 +39,10 @@
 .smallsidebar .top .lower ul li a {
   color: white;
 }
-.smallsidebar .bottom span a {
+.smallsidebar .bottom ul li {
+  list-style: none;
+}
+.smallsidebar .bottom ul li a {
   color: white;
 }
 
@@ -47,47 +50,162 @@
   float: left;
   height: 100vh;
   width: 300px;
-  margin-left: -300px;
-  background-color: rgb(13, 172, 204);
+  background-color: rgb(210, 204, 204);
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 40px;
   flex-direction: column;
-  color: white;
-  font-size: 20px;
   display: none;
 }
 .largesidebar .top {
-  height: 400px;
+  height: 600px;
+  width: 300px;
+  background-color: red;
+}
+.largesidebar .top .upper {
+  height: 150px;
+  width: 300px;
+  background-color: yellow;
   display: flex;
-  flex-direction: column;
-  gap: 100px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.largesidebar .top .upper #bar i {
+  font-size: 25px;
+}
+.largesidebar .top .upper .name {
+  font-size: 25px;
+  font-weight: 500;
+}
+.largesidebar .top .upper .name span {
+  color: green;
 }
 .largesidebar .top .lower {
-  height: 300px;
+  height: 450px;
+  width: 300px;
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
 }
 .largesidebar .top .lower ul {
-  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
 }
 .largesidebar .top .lower ul li {
-  margin-top: 30px;
+  list-style: none;
+}
+.largesidebar .top .lower ul li a {
+  text-decoration: none;
+  gap: 20px;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  font-size: 16px;
+  color: white;
 }
 .largesidebar .bottom {
   height: 100px;
+  width: 300px;
+  background-color: white;
+}
+.largesidebar .bottom ul {
+  height: 100px;
+  width: 300px;
+}
+.largesidebar .bottom ul li {
+  height: 100px;
+  width: 300px;
+}
+.largesidebar .bottom ul li a {
+  background-color: #54544d;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
 }
 
 header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(255, 255, 255);
   height: 120px;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+header .search input {
+  height: 30px;
+  width: 260px;
+  border: none;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+header .search i {
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  margin-left: -30px;
 }
 header .logo img {
   height: 50px;
   width: 50px;
+}
+
+.numberdata {
+  height: 150px;
+  background-color: grey;
+}
+
+.charts {
+  height: 400px;
+  position: sticky;
+  display: flex;
+  border: 1px solid black;
+}
+.charts .graph_cover {
+  height: 400px;
+  width: 500px;
+  background-color: white;
+}
+.charts .graph_cover .heading {
+  height: 50px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.charts .pichart_cover {
+  height: 400px;
+  width: 500px;
+  background-color: white;
+}
+.charts .pichart_cover .heading {
+  height: 50px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.charts .pichart_cover #pi {
+  background-color: white;
+  height: 450px;
+  width: auto;
+}
+.charts .line_cover {
+  height: 400px;
+  width: 500px;
+  background-color: white;
+}
+.charts .line_cover .heading {
+  height: 50px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.charts .line_cover #pi {
+  background-color: white;
+  height: 450px;
+  width: auto;
 }/*# sourceMappingURL=dashboard.css.map */
