@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        form
+        {
+            height: 400px;
+            width: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+             background-color: rgb(53, 115, 186);
+            position: relative;
+            left: 500px;
+            top: 200px;
+            gap: 20px;
+        }
+        form input{
+            height: 30px;
+            width: 300px;
+            text-align: center;
+        }
+
+    </style>
+    <title>Registration form </title>
+</head>
+<body>
+    
+    <form>
+        <input type="text" id="name" placeholder="Enter Name">
+        <input type="text" id="image" placeholder="enter image url">
+        <input type="email" id="email" placeholder="enter email">
+        <input type="text" id="mob" placeholder="enter mobile number">
+        <input type="password" id="password" placeholder="enter password">
+        <input type="password" id="cpassword" placeholder="confirm password">
+        <button onclick="registration()">Register</button>
+    </form>
+    <script src="./Registration.js"></script>
+</body>
+</html>
