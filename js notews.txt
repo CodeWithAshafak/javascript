@@ -13,4 +13,55 @@
 
 09 OCT 2024
 IFFI function :-
-IIFE stands for Immediately Invoked Function Expression. It is a JavaScript function that runs as soon as it is defined. An IIFE is a function expression that is defined and invoked immediately after its declaration. It's an isolated and self-contained block of code that can be used to encapsulate variables and functions, preventing them from polluting the global scope.  
+IIFE stands for Immediately Invoked Function Expression. It is a JavaScript function that runs as soon as it is defined. An IIFE is a function expression that is defined and invoked immediately after its declaration. It's an isolated and self-contained block of code that can be used to encapsulate variables and functions, preventing them from polluting the global scope.
+
+
+FITER 
+REDUCE
+  
+find:- sirf ek data ke liye hota hai 
+filter:- pure data me jitene bhi 
+
+
+Function ;-
+Regulear:-
+
+fucniton show(){
+
+}
+
+=> Arrow:-
+const arrow_funciton=(){
+
+
+
+}
+//arrow function is denoted by variable name and it called by it name that is its varialble name 
+
+
+
+
+
+
+3) IFFI function :
+(function(){
+
+
+
+})();
+
+
+//Higer order function :- apne andar ek our function pass karte uuko higer order bolte 
+ex reduce map filter, setinterval,  are the higger order function 
+
+example :- setInterval(df,1000);
+
+=>
+document.querySelector('.btn').addEvenListner('click',dd); // js se event lga rhe hai ,jaisa hmne html se kiya tha w
+
+function dd{
+alert("btn clicled");
+}
+
+JQUR
+$-MEANS 

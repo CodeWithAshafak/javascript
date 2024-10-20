@@ -71,6 +71,15 @@
       "mob": "123456",
       "password": "1234",
       "cpassword": "1234"
+    },
+    {
+      "id": "8862",
+      "name": "aisha",
+      "email": "aisha@gmail.com",
+      "image": "https://asset.gecdesigns.com/img/wallpapers/beautiful-muslim-woman-with-hijab-wallpaper-sr27062407-cover.webp",
+      "mob": "1234567890",
+      "password": "123",
+      "cpassword": "123"
     }
   ],
   "products": []
