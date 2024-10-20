@@ -1,0 +1,129 @@
+{
+  "user": [
+    {
+      "id": "eb9a",
+      "name": "Deepak",
+      "email": "email@gmail.com",
+      "image": "https://t3.ftcdn.net/jpg/05/17/79/88/360_F_517798849_WuXhHTpg2djTbfNf0FQAjzFEoluHpnct.jpg",
+      "mob": "1234567",
+      "password": "1234",
+      "cpassword": "1234"
+    },
+    {
+      "id": "2661",
+      "name": "Ankit",
+      "email": "dp089901@gmail.com",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtRs_rWILOMx5-v3aXwJu7LWUhnPceiKvvDg&s",
+      "mob": "12345671fgt",
+      "password": "12345",
+      "cpassword": "12345"
+    },
+    {
+      "id": "e029",
+      "name": "Aryan",
+      "email": "aryan@gmail.com",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzk92qOx7c5k5fybjVbUkwg6BGW_ptjgID9A&s",
+      "mob": "1234567890",
+      "password": "123456",
+      "cpassword": "123456"
+    },
+    {
+      "id": "ac38",
+      "name": "Deepak Patel",
+      "email": "dp089901@gmail.com",
+      "image": "",
+      "mob": "09399431102",
+      "password": "1234",
+      "cpassword": "1234"
+    },
+    {
+      "id": "f732",
+      "name": "Deepak Patel",
+      "email": "dp089901@gmail.com",
+      "image": "",
+      "mob": "09399431102",
+      "password": "12",
+      "cpassword": "12"
+    },
+    {
+      "id": "f806",
+      "name": "Deepak Patel",
+      "email": "dp089901@gmail.com",
+      "image": "",
+      "mob": "09399431102",
+      "password": "1",
+      "cpassword": "1"
+    },
+    {
+      "id": "58fd",
+      "name": "Deepak Patel",
+      "email": "dp089901@gmail.com",
+      "image": "",
+      "mob": "09399431102",
+      "password": "345",
+      "cpassword": "245"
+    }
+  ],
+  "products": [
+    {
+      "name": "Abhay dixit",
+      "email": "abhay@gmail.com",
+      "id": "8940"
+    },
+    {
+      "name": "deepak",
+      "email": "mandeep@gmail.com",
+      "id": "4d7c"
+    },
+    {
+      "id": "e1de",
+      "name": "deepak",
+      "email": "dp089901@gmail.com"
+    },
+    {
+      "id": "1334",
+      "name": "deepak",
+      "email": "abhay@gmail.com"
+    },
+    {
+      "id": "0d85",
+      "name": "anushka",
+      "email": "anushka@gmail.com"
+    },
+    {
+      "id": "685b",
+      "name": "pooja",
+      "email": "pooja@gmail.com"
+    },
+    {
+      "id": "aa16",
+      "name": "ashfaq",
+      "email": "ashfaq@gmail.com"
+    },
+    {
+      "id": "68e7",
+      "name": "Madhur",
+      "email": "madhur@gmail.com"
+    },
+    {
+      "id": "fe5b",
+      "name": "sapna",
+      "email": "sapna@gmail"
+    },
+    {
+      "id": "065f",
+      "name": "suman",
+      "email": "suman@gmail.com"
+    },
+    {
+      "id": "b3cc",
+      "name": "megha",
+      "email": "megha@gmail.com"
+    },
+    {
+      "id": "6b48",
+      "name": "Ramiz",
+      "email": "ramiz@gmail.com"
+    }
+  ]
+}
