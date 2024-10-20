@@ -14,6 +14,9 @@
     <title>Dashboard</title>
   </head>
   <body>
+
+<!--************************* Small-Sidebar   *************************-->
+
     <aside class="smallsidebar">
       <div class="top">
         <div class="upper">
@@ -25,77 +28,229 @@
         <div class="lower">
           <ul>
             <li>
-              <a href="./Profile.html"><i class="fa-solid fa-user"></i></a>
+              <a href="./dashboard.html">
+                <i class="fa-solid fa-house"></i>
+                <span></span>
+                </a>
+                
             </li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-briefcase"></i>
+                <span></span>
+                </a>
+                
+            </li>
+           
 
             <li>
-              <a href="#"><i class="fa-solid fa-briefcase"></i></a>
+              <a href="#">
+                <i class="fa-solid fa-hotel"></i>
+                <span></span>
+                </a>
+                
+            </li>
+            
+
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-photo-film"></i>
+                <span></span>
+                </a>
+                
+            </li>
+
+
+            <!-- **** -->
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-cube"></i>
+                <span></span>
+                </a>
+                
             </li>
             <li>
-              <a href="#"><i class="fa-solid fa-hotel"></i></a>
+              <a href="#">
+                <i class="fa-solid fa-truck-fast"></i>
+                <span></span>
+                </a>
+                
             </li>
             <li>
-              <a href="#"><i class="fa-solid fa-photo-film"></i></a>
+              <a href="#">
+                <i class="fa-solid fa-users-line"></i>
+                <span></span>
+                </a>
+                
             </li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-calendar-day"></i>
+                <span></span>
+                </a>
+                
+            </li>
+
+            
+            
           </ul>
         </div>
       </div>
 
       <div class="bottom">
-        <span onclick="logout()">
-          <a href="#"><i class="fa-solid fa-right-from-bracket"></i></a>
-        </span>
+
+
+        <ul onclick="logout()">
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-right-from-bracket"></i>
+              <span></span>
+              </a>
+              
+          </li>
+
+        </ul>
+       
       </div>
+
+
+
     </aside>
+
+
+    <!--************************* large-Sidebar ********************************-->
 
     <aside class="largesidebar">
       <div class="top">
         <div class="upper">
-          <span id="bar" onclick="smallsidebar()"
-            >
-            <i class="fa-solid fa-bars-staggered"></i> Travelo
-            </span
-          >
+          
+        <span id="bar" onclick="smallsidebar()">
+          <i class="fa-solid fa-bars-staggered"></i> 
+        </span>
+         <div class="name">
+          TREVEL<span>ER</span>
+
+         </div>
+          
         </div>
 
         <div class="lower">
           <ul>
             <li>
-              <a href="./Profile.html"
-                ><i class="fa-solid fa-user"></i>Profile</a
-              >
+              <a href="./dashboard.html">
+                <i class="fa-solid fa-house"></i>
+                <span>Dashboard</span>
+                </a>
+                
             </li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-briefcase"></i>
+                <span>Package</span>
+                </a>
+                
+            </li>
+           
 
             <li>
-              <a href="#"><i class="fa-solid fa-briefcase"></i>Package</a>
+              <a href="#">
+                <i class="fa-solid fa-hotel"></i>
+                <span>Hotel</span>
+                </a>
+                
+            </li>
+            
+
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-photo-film"></i>
+                <span>Gallary</span>
+                </a>
+                
+            </li>
+
+
+            <!-- **** -->
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-cube"></i>
+                <span>Blog</span>
+                </a>
+                
             </li>
             <li>
-              <a href="#"><i class="fa-solid fa-hotel"></i>Hotel</a>
+              <a href="#">
+                <i class="fa-solid fa-truck-fast"></i>
+                <span>Orders</span>
+                </a>
+                
             </li>
             <li>
-              <a href="#"><i class="fa-solid fa-photo-film"></i>Gallery</a>
+              <a href="#">
+                <i class="fa-solid fa-users-line"></i>
+                <span>Customers</span>
+                </a>
+                
             </li>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-calendar-day"></i>
+                <span>Calendar</span>
+                </a>
+                
+            </li>
+
+            
+            
           </ul>
         </div>
       </div>
 
       <div class="bottom">
-        <span onclick="logout()">
-          <a href="#"><i class="fa-solid fa-right-from-bracket"></i></a>
-        </span>
+
+
+        <ul onclick="logout()">
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-right-from-bracket"></i>
+              <span>Log Out</span>
+              </a>
+              
+          </li>
+
+        </ul>
+       
       </div>
+
     </aside>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
     <!--********** topbar  *******-->
     <header>
       <div class="logo">
-        <img src="./image/business-travel.png" alt="">
+       
       </div>
-      <div class="heading"><h3> #DashMin</h3></div>
+      
       <div class="search">
-        <input type="text" placeholder="search" />
+        <input type="text" placeholder=" Search" />
         <i class="fa-solid fa-magnifying-glass"></i>
       </div>
+      
       <div class="notification">
         <i class="fa-regular fa-envelope"></i>
         <i class="fa-regular fa-bell"></i>
@@ -104,6 +259,61 @@
       <div class="user"></div>
     </header>
 
+    <div class="numberdata">
+
+    </div>
+
+    <div class="charts">
+      <div class="graph_cover">
+        <div class="heading">
+          <h4>Booking Status</h4>
+
+        </div>
+        
+  <div id="graph" style="position: relative; width: 100%; height: 0; padding-top: 75.0000%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGUHE6hFu8/H1R8KbC5sqdC-vB_5oRGCQ/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+
+</div>
+
+      </div>
+      <div class="pichart_cover">
+        <div class="heading">
+          <h4>Daily Inquery</h4>
+        </div>
+        <div style="position: relative; width: 100%; height: 0; padding-top: 75.0000%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGUHnJ9vjE/aXaPxRf1fMpcFmc1UMLkGg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+
+       
+
+
+    </div>
+    <div class="line_cover">
+      <div class="heading">
+        <h4>Revenue</h4>
+      </div>
+      <div style="position: relative; width: 100%; height: 0; padding-top: 75.0000%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGUHvKjlJU/rik11iFEmciIdeCpSBYrSg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+
+
+    </div>
+
+
+    
     <script src="./dashboard.js"></script>
   </body>
 </html>
