@@ -64,32 +64,55 @@
       "cpassword": "245"
     },
     {
-      "id": "7db6",
-      "name": "ruhi",
-      "email": "ruhi@gmail.com",
+      "id": "1d26",
+      "name": "Rashmi ",
+      "email": "rashmi@gmail.com",
       "image": "https://images.app.goo.gl/PqS8adeXCTvW8UAW8",
-      "mob": "123456",
-      "password": "1234",
-      "cpassword": "1234"
-    },
-    {
-      "id": "8862",
-      "name": "aisha",
-      "email": "aisha@gmail.com",
-      "image": "https://asset.gecdesigns.com/img/wallpapers/beautiful-muslim-woman-with-hijab-wallpaper-sr27062407-cover.webp",
-      "mob": "1234567890",
-      "password": "123",
-      "cpassword": "123"
-    },
-    {
-      "id": "7abf",
-      "name": "Raheel",
-      "email": "rahil@gmail.com",
-      "image": "https://image.tensorartassets.com/cdn-cgi/image/anim=true,plain=false,w=2048,f=jpeg,q=85/posts/images/684058496613784590/a7a64855-8400-4d0b-9856-0a623694deb4.jpg",
-      "mob": "74125889632",
+      "mob": "7894561230",
       "password": "123",
       "cpassword": "123"
     }
   ],
-  "products": []
+  "products": [
+    {
+      "name": "navin",
+      "email": "abhay@gmail.com",
+      "id": "8940"
+    },
+    {
+      "name": "deepak",
+      "email": "mandeep@gmail.com",
+      "id": "4d7c"
+    },
+    {
+      "id": "e1de",
+      "name": "deepak",
+      "email": "dp089901@gmail.com"
+    },
+    {
+      "id": "1334",
+      "name": "deepak",
+      "email": "abhay@gmail.com"
+    },
+    {
+      "id": "0d85",
+      "name": "anushka",
+      "email": "anushka@gmail.com"
+    },
+    {
+      "id": "6582",
+      "name": "Ashafak Altaf Astanwale",
+      "email": "ashafak04@gmail.com"
+    },
+    {
+      "name": "Rakhima",
+      "email": "rakhi@gmail.com",
+      "id": "6fdc"
+    },
+    {
+      "id": "b223",
+      "name": "",
+      "email": ""
+    }
+  ]
 }

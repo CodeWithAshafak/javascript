@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./dashboard.css" />
     <title>Dashboard</title>
   </head>
-  <body>
+  <body onload="info()">
 
 <!--************************* Small-Sidebar   *************************-->
 
@@ -224,20 +224,7 @@
 
     </aside>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
     
 
     <!--********** topbar  *******-->
@@ -256,12 +243,24 @@
         <i class="fa-regular fa-bell"></i>
         <i class="fa-regular fa-moon"></i>
       </div>
-      <div class="user"></div>
+      <!-- userdata on frontend -->
+      <div class="userData">
+        <div class="image"><img id="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF5-3YjBcXTqKUlOAeUUtuOLKgQSma2wGG1g&s" alt="">
+        </div>
+        <div class="info">
+          <span id="username"></span>
+          <span id="useremail"></span>
+        </div>
+      </div>
     </header>
 
-    <div class="numberdata">
+    <div id="analytics">
+      <div class="userNo">
+        <!-- <span id="usersCount"></span> -->
+      </div>
 
     </div>
+    
 
     <div class="charts">
       <div class="graph_cover">
@@ -312,8 +311,15 @@
 
     </div>
 
+  </div>
+     <!-- <div  class="getInfo" style="height: 400px;width: 400px;border: 2px solid green; display: flex;position:  relative; left: 300px;">
+      <div>
+        <img src="" alt="" id="image">
+      </div>
 
-    
+     
+     <button onclick="getinfo()"> onclick</button> -->
     <script src="./dashboard.js"></script>
+    <script src="./loginInfo.js"></script>
   </body>
 </html>

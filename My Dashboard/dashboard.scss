@@ -259,11 +259,46 @@ header{
             width: 50px;
         }
     }
+    .userData{
+        background-color: red;
+        height:100px;
+        width: 250px;
+        display: flex;
+        .image{
+            #img{
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+            }
+        }
+        .info
+        {  
+            height: 100px;
+            width: 150px;
+            background-color: yellow;
+            display: flex;
+            flex-direction: column;
+        }
+    }
 }
 
-.numberdata{
+#analytics{
+   display: flex;
     height: 150px;
-    background-color:grey;
+    // widt%;
+      
+    background-color:transparent;
+    border: 2px solid black;
+    .userNo{
+        height: 130px;
+        width: 200px;
+       
+        background-color: red;
+        border: 1px solid black;
+       display: flex;
+       justify-content: center;
+       align-items:  center;
+    }
 }
 .charts{
  height: 400px;

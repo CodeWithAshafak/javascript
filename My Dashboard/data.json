@@ -17,6 +17,51 @@
       "mob": "7845129632",
       "password": "Ashafak04@123",
       "cpassword": "Ashafak04@123"
+    },
+    {
+      "id": "966b",
+      "name": "Hania Amir",
+      "email": "hania@gmail.com",
+      "image": "https://png.pngtree.com/thumb_back/fh260/background/20230527/pngtree-boy-wearing-sunglasses-behind-a-dark-background-image_2675368.jpg",
+      "mob": "8698468448",
+      "password": "Hani@123",
+      "cpassword": "Hani@123"
+    },
+    {
+      "id": "a9bd",
+      "name": "Ruhi",
+      "email": "ruhi@gmail.com",
+      "image": "https://i.pinimg.com/736x/41/52/92/41529228b0927700222790258464e89a.jpg",
+      "mob": "7418529631",
+      "password": "Ruhi@123",
+      "cpassword": "Ruhi@123"
+    },
+    {
+      "id": "6808",
+      "name": "Avin Shaikh",
+      "email": "avin@gmail.com",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToMAuXgrE9nI6rms4yhFT33gqNi8bLqMv3Ng&s",
+      "mob": "7894561230",
+      "password": "Avin@123",
+      "cpassword": "Avin@123"
+    },
+    {
+      "id": "43e6",
+      "name": "Aisha khan",
+      "email": "aisha@gmail.com",
+      "image": "https://asset.gecdesigns.com/img/wallpapers/beautiful-muslim-woman-with-hijab-wallpaper-sr27062407-cover.webp",
+      "mob": "8698468448",
+      "password": "Ashafak04@123",
+      "cpassword": "Ashafak04@123"
+    },
+    {
+      "id": "4840",
+      "name": "Aisha khan",
+      "email": "aisha@gmail.com",
+      "image": "https://i.pinimg.com/736x/41/52/92/41529228b0927700222790258464e89a.jpg",
+      "mob": "7894561230",
+      "password": "Ashafak04@123",
+      "cpassword": "Ashafak04@123"
     }
   ]
 }

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate visiting card </title>
+
+    <style>
+        .cover{
+            display: flex;
+            border: 2px solid black;
+            border-radius: 20px;
+            background-color: rgb(61, 170, 173);
+            height: 400px;
+            width: 400px;
+             justify-content: center;
+             align-items: center;
+             gap: 20px;
+
+        }
+        .cover .image img{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            border: 2px dotted white;
+            
+        }
+        .main section {
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="image">
+           
+        </div>
+        <div class="info">
+
+             <input type="text" placeholder="enter image url" id="image">
+             <br>
+            <input type="text" placeholder="enter your name" id="name">
+            <br>
+            <input type="text" placeholder="enter your profession " id="profession">
+            <br>
+            <input type="email" placeholder="enter your email" id="email">
+            <br>
+            <input type="tel" placeholder="enter your mobile number" id="mobile">
+            <br>
+            <input type="text" placeholder="address" id="address">
+            <button type="submit" onclick="save()">save</button>
+
+
+        </div>
+
+    </div>
+
+
+    <div class="showcard"></div>
+    <script src="./6.js"> 
+    </script>
+</body>
+</html>

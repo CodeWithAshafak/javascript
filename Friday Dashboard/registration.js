@@ -29,7 +29,13 @@ function reg(){
     window.open("index.html")
 
 }
+
+
+
+
 // ======================login code ======================
+
+
 async function login(){
     let data = await fetch('http://localhost:4000/user');
     let response = await data.json();
@@ -42,21 +48,14 @@ async function login(){
     let out = response.find(e=> e.email === email && e.password === password);
 
     console.log(out)
-    // alert("conslo")
-    // return false
-
 
     if(out){
         window.localStorage.setItem('logininfo',JSON.stringify(out))
-        
-        // window.open("product.html")
-        window.location.href = "dashboard.html";
-       
         return true;
     }
     else{
         window.alert("register first")
-        return false;
     }
-   
+    
+
 }
