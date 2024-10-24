@@ -1,0 +1,13 @@
+.productform{
+    display: none;
+    background-color: chocolate;
+    padding: 50px;
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 600px;
+    z-index: 2;
+}
+
+.ubtn{
+    display: none;
+}
