@@ -62,6 +62,99 @@
       "mob": "7894561230",
       "password": "Ashafak04@123",
       "cpassword": "Ashafak04@123"
+    },
+    {
+      "id": "d568",
+      "name": "Ramiz Mirza",
+      "email": "ramiz@gmail.com",
+      "image": "https://i.pinimg.com/736x/41/52/92/41529228b0927700222790258464e89a.jpg",
+      "mob": "7412589630",
+      "password": "Ramiz@123",
+      "cpassword": "Ramiz@123"
+    }
+  ],
+  "CustInfo": [
+    {
+      "id": "23dc",
+      "guestName": "avin ",
+      "date": "2024-10-05T14:09",
+      "mob": "8698468448",
+      "roomType": "DELUX"
+    },
+    {
+      "id": "5d61",
+      "guestName": "Abin",
+      "date": "2024-10-04T15:08",
+      "mob": "8698468448",
+      "roomType": "DELUX"
+    },
+    {
+      "id": "38c0",
+      "guestName": "Ashafak",
+      "date": "2024-10-23T15:13",
+      "mob": "8698468448",
+      "roomType": "DELUX"
+    },
+    {
+      "id": "613f",
+      "guestName": "",
+      "date": "",
+      "mob": "",
+      "roomType": ""
+    },
+    {
+      "id": "f770",
+      "guestName": "",
+      "date": "",
+      "mob": "",
+      "roomType": ""
+    },
+    {
+      "id": "ef22",
+      "guestName": "",
+      "date": "",
+      "mob": "",
+      "roomType": ""
+    },
+    {
+      "id": "df77",
+      "guestName": "RAHIM",
+      "date": "2024-10-24T19:01",
+      "mob": "8698468448",
+      "roomType": "DELUX",
+      "status": "CONFIMED"
+    },
+    {
+      "id": "c190",
+      "guestName": "avin ",
+      "date": "2024-10-24T19:02",
+      "mob": "7894561230",
+      "roomType": "DELUX",
+      "status": "CONFIMED"
+    },
+    {
+      "id": "f7db",
+      "guestName": "rajesh kumar ",
+      "date": "2024-10-24T19:09",
+      "mob": "7378468448",
+      "roomType": "Delux prime",
+      "status": "pending"
+    },
+    {
+      "id": "1a5f",
+      "guestName": "RAHIM KHAN",
+      "date": "2024-10-24T19:11",
+      "mob": "7845129632",
+      "roomType": "Classic",
+      "status": "not  confimed"
+    },
+    {
+      "id": "23ce",
+      "guestName": "rabi",
+      "date": "2024-10-24T19:24",
+      "mob": "123456",
+      "roomType": "Delux prime",
+      "status": "pending"
     }
   ]
 }
