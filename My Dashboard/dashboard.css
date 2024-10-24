@@ -12,7 +12,7 @@
   float: left;
   height: 100vh;
   width: 70px;
-  background-color: rgb(44, 128, 148);
+  background-color: goldenrod;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -131,6 +131,7 @@ header {
   align-items: center;
   background-color: rgb(255, 255, 255);
   height: 120px;
+  cursor: pointer;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
 }
 header .search input {
@@ -151,11 +152,25 @@ header .logo img {
   height: 50px;
   width: 50px;
 }
-header .userData {
-  background-color: red;
-  height: 100px;
+header .notification {
+  height: 120px;
   width: 250px;
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header .notification i {
+  font-size: 25px;
+}
+header .notification i:hover {
+  color: goldenrod;
+}
+header .userData {
+  height: 100px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 header .userData .image #img {
   height: 100px;
@@ -165,35 +180,113 @@ header .userData .image #img {
 header .userData .info {
   height: 100px;
   width: 150px;
-  background-color: yellow;
+  cursor: pointer;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #analytics {
   display: flex;
   height: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-around;
+  align-items: center;
   background-color: transparent;
-  border: 2px solid black;
 }
 #analytics .userNo {
+  height: 35px;
+  width: 160px;
+  gap: 15px;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#analytics .NewBookings {
   height: 130px;
-  width: 200px;
-  background-color: red;
-  border: 1px solid black;
+  width: 270px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  display: flex;
+  border-radius: 30px;
+}
+#analytics .NewBookings .icon {
+  height: inherit;
+  width: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+#analytics .NewBookings .icon i {
+  font-size: 40px;
+  color: greenyellow;
+  height: 50px;
+  width: 50px;
+}
+#analytics .NewBookings .icon i:hover {
+  color: red;
+}
+#analytics .NewBookings .textcover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#analytics .NewBookings .textcover .number {
+  font-size: 25px;
+}
+#analytics .NewBookings:hover {
+  background-color: goldenrod;
+}
+#analytics .Revenue {
+  height: 130px;
+  width: 270px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  border-radius: 20px;
+  display: flex;
+}
+#analytics .Revenue .icon {
+  height: inherit;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#analytics .Revenue .icon i {
+  font-size: 40px;
+  color: greenyellow;
+  height: 50px;
+  width: 50px;
+}
+#analytics .Revenue .icon i:hover {
+  color: red;
+}
+#analytics .Revenue .textcover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#analytics .Revenue .textcover .number {
+  font-size: 25px;
+}
+#analytics .Revenue:hover {
+  background-color: goldenrod;
+}
 
 .charts {
-  height: 400px;
+  height: 460px;
   position: sticky;
   display: flex;
-  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
 }
 .charts .graph_cover {
-  height: 400px;
+  height: 460px;
   width: 500px;
   background-color: white;
 }
@@ -205,7 +298,7 @@ header .userData .info {
   justify-content: center;
 }
 .charts .pichart_cover {
-  height: 400px;
+  height: 460px;
   width: 500px;
   background-color: white;
 }
@@ -218,11 +311,11 @@ header .userData .info {
 }
 .charts .pichart_cover #pi {
   background-color: white;
-  height: 450px;
+  height: 460px;
   width: auto;
 }
 .charts .line_cover {
-  height: 400px;
+  height: 460px;
   width: 500px;
   background-color: white;
 }
@@ -235,6 +328,6 @@ header .userData .info {
 }
 .charts .line_cover #pi {
   background-color: white;
-  height: 450px;
+  height: 460px;
   width: auto;
 }/*# sourceMappingURL=dashboard.css.map */
