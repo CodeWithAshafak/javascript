@@ -20,3 +20,7 @@ function smallsidebar(){
 
 
 }
+
+function logout(){
+   localStorage.clear();
+}

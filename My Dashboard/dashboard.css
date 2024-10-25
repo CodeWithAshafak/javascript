@@ -50,7 +50,7 @@
   float: left;
   height: 100vh;
   width: 300px;
-  background-color: rgb(210, 204, 204);
+  background-color: goldenrod;
   display: flex;
   flex-direction: column;
   display: none;
@@ -58,12 +58,10 @@
 .largesidebar .top {
   height: 600px;
   width: 300px;
-  background-color: red;
 }
 .largesidebar .top .upper {
   height: 150px;
   width: 300px;
-  background-color: yellow;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -81,7 +79,6 @@
 .largesidebar .top .lower {
   height: 450px;
   width: 300px;
-  background-color: orange;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -106,7 +103,6 @@
 .largesidebar .bottom {
   height: 100px;
   width: 300px;
-  background-color: white;
 }
 .largesidebar .bottom ul {
   height: 100px;
@@ -117,12 +113,12 @@
   width: 300px;
 }
 .largesidebar .bottom ul li a {
-  background-color: #54544d;
+  color: white;
   height: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: white;
+  text-decoration: none;
 }
 
 header {
@@ -148,9 +144,8 @@ header .search i {
   z-index: 2;
   margin-left: -30px;
 }
-header .logo img {
-  height: 50px;
-  width: 50px;
+header .logo {
+  font-size: 24px;
 }
 header .notification {
   height: 120px;
