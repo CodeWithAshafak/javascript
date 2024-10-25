@@ -20,11 +20,11 @@ function info(){
 (async function() {
     let data = await fetch('http://localhost:4000/user');
    
-    let response = await data.json() ;
+    let response = await data.json();
     let  selectNoOfUser = document.querySelector(".userNo");
     selectNoOfUser.innerHTML = response.length;
     
-})()
+})();
 
 
 function getinfo(){

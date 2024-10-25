@@ -27,14 +27,14 @@
   color: white;
   border-radius: 10px;
 }
-#operationSection #searchoption {
+#operationSection #searchOptions {
   height: 50px;
   width: 200px;
   text-align: center;
   border-radius: 10px;
   background-color: white;
 }
-#operationSection #searchoption option {
+#operationSection #searchOptions option {
   height: 50px;
   width: 300px;
 }
@@ -43,6 +43,7 @@
   width: 250px;
   border-radius: 10px;
   border: 1px solid black;
+  text-align: center;
 }
 #operationSection button {
   height: 50px;
@@ -95,4 +96,29 @@
 .formcover form button:hover {
   color: white;
   background-color: greenyellow;
+}
+.formcover form #updateButton {
+  display: none;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: separate;
+}
+
+th {
+  background-color: rgb(255, 165, 0);
+  color: white;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 2px;
 }/*# sourceMappingURL=package.css.map */

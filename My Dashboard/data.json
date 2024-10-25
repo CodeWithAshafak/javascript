@@ -71,15 +71,34 @@
       "mob": "7412589630",
       "password": "Ramiz@123",
       "cpassword": "Ramiz@123"
+    },
+    {
+      "id": "b241",
+      "name": "Rani Deshmukh",
+      "email": "ashafak04@gmail.com",
+      "image": "https://asset.gecdesigns.com/img/wallpapers/beautiful-muslim-woman-with-hijab-wallpaper-sr27062407-cover.webp",
+      "mob": "1234567890",
+      "password": "Ashafak@123",
+      "cpassword": "Ashafak@123"
+    },
+    {
+      "id": "4cf9",
+      "name": "Ashafak Astanwale",
+      "email": "ashafak04@gmail.com",
+      "image": "https://image.tensorartassets.com/cdn-cgi/image/anim=true,plain=false,w=2048,f=jpeg,q=85/posts/images/684058496613784590/a7a64855-8400-4d0b-9856-0a623694deb4.jpg",
+      "mob": "8698468448",
+      "password": "Ashafak04@123",
+      "cpassword": "Ashafak04@123"
     }
   ],
   "CustInfo": [
     {
-      "id": "23dc",
-      "guestName": "avin ",
-      "date": "2024-10-05T14:09",
+      "guestName": "Labin",
       "mob": "8698468448",
-      "roomType": "DELUX"
+      "date": "2024-10-05T14:09",
+      "roomType": "DELUX",
+      "status": "Confirmed",
+      "id": "23dc"
     },
     {
       "id": "5d61",
@@ -87,34 +106,6 @@
       "date": "2024-10-04T15:08",
       "mob": "8698468448",
       "roomType": "DELUX"
-    },
-    {
-      "id": "38c0",
-      "guestName": "Ashafak",
-      "date": "2024-10-23T15:13",
-      "mob": "8698468448",
-      "roomType": "DELUX"
-    },
-    {
-      "id": "613f",
-      "guestName": "",
-      "date": "",
-      "mob": "",
-      "roomType": ""
-    },
-    {
-      "id": "f770",
-      "guestName": "",
-      "date": "",
-      "mob": "",
-      "roomType": ""
-    },
-    {
-      "id": "ef22",
-      "guestName": "",
-      "date": "",
-      "mob": "",
-      "roomType": ""
     },
     {
       "id": "df77",
@@ -133,14 +124,6 @@
       "status": "CONFIMED"
     },
     {
-      "id": "f7db",
-      "guestName": "rajesh kumar ",
-      "date": "2024-10-24T19:09",
-      "mob": "7378468448",
-      "roomType": "Delux prime",
-      "status": "pending"
-    },
-    {
       "id": "1a5f",
       "guestName": "RAHIM KHAN",
       "date": "2024-10-24T19:11",
@@ -149,12 +132,36 @@
       "status": "not  confimed"
     },
     {
-      "id": "23ce",
-      "guestName": "rabi",
-      "date": "2024-10-24T19:24",
-      "mob": "123456",
+      "id": "79b5",
+      "guestName": "sohel sayeed",
+      "date": "2024-10-24T22:21",
+      "mob": "7894561230",
       "roomType": "Delux prime",
-      "status": "pending"
+      "status": "not  confimed"
+    },
+    {
+      "id": "d90c",
+      "guestName": "Mahatma Gandhi",
+      "date": "2024-10-24T23:29",
+      "mob": "7845129632",
+      "roomType": "Delux prime",
+      "status": "CONFIMED"
+    },
+    {
+      "id": "8655",
+      "guestName": "Shafak",
+      "date": "2024-10-25T10:54",
+      "mob": "123456",
+      "roomType": "premium",
+      "status": "Confirmed"
+    },
+    {
+      "id": "91e1",
+      "guestName": "Ramesh Jadhav",
+      "date": "2024-10-25T14:18",
+      "mob": "7845129632",
+      "roomType": "Classic",
+      "status": "not  confimed"
     }
   ]
 }
