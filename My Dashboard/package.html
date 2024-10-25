@@ -10,25 +10,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
     <link rel="stylesheet" href="./dashboard.css" />
     <link rel="stylesheet" href="./package.css" />
     <style>
-            table {
-            width: 80%;
-            margin: 20px auto;
-            border-collapse: collapse;
-        }
-
-        th, td {
-            padding: 10px;
-            text-align: center;
-            border: 1px solid #ccc;
-            background-color: #f2f2f2;
-        }
-        button {
-            padding: 5px 10px;
-            margin: 2px;
-        }
+           
     </style>
     <title>Package</title>
   </head>
@@ -223,12 +209,15 @@
         </div>
       </div>
     </header>
+   
+
+    <!-- search and addTo  form -->
 
     <div id="operationSection">
       <div id="button">
         <button onclick="addinfo()">Add package</button>
       </div>
-      <select id="searchoption">
+      <select id="searchOptions">
         <option value="name">search by name</option>
         <option value="mobile">search by Mobile</option>
       </select>
@@ -236,6 +225,9 @@
       <button onclick="datasearch()">Search</button>
     </div>
     <center>
+
+      <!-- Product Form -->
+
     <div class="formcover">
       <form id="productform">
         <h4>Product Form</h4>
@@ -254,42 +246,50 @@
         <input type="text" placeholder="Room type" id="roomType" />
         <label for="status">Status</label>
         <input type="text" placeholder="status" id="status" />
-        <button onclick="submitData()">Add Data</button>
+        <button id="Addbtn" onclick="submitData()">Add Data</button>
+        <button  id="updateButton" onclick="Update()">Update</button>
       </form>
     </div>
   </center>
-    <!-- <div class="buttons">
-       
-          <button onclick="addinfo()">Add info</button>
-          <button>Update Pakage</button>
-        
-      </div> -->
+    
 
     <center>
               
       <table id="showData" >
         <thead>
           <tr>
-              
               <th>ID</th>
-              <th>Image</th>
-              <th>Name</th>
-              <th>Stock</th>
-              <th>Price</th>
+              <th>Guest Name</th>
+              <th>Booking Status</th>
+              <th>Booking Time</th>
+              <th>Mobile </th>
+              <th>Room Type</th>
               <th>Action</th>
               
           </tr>
       </thead>
       
-      
-        
       <tbody id="data">
-        <!-- Dynamic rows will be populated here -->
+        
       </tbody>
 
       </table>
      
     </center>
+
+
+    <center>
+
+    <button id="dcbtn" onclick="pagedecrease()"><<</button>
+
+    &nbsp<span id="currentpage">1</span> &nbsp
+    
+    <button id="incbtn" onclick="pageincrease()">>></button>
+
+  </center>
+
+
+  
     <script src="./loginInfo.js"></script>
     <script src="./dashboard.js"></script>
     <script src="./package.js"></script>
